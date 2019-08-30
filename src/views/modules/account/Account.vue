@@ -94,7 +94,7 @@ export default {
         .catch(err => {
           this.$message({
             message: '温馨提示，删除失败！',
-            duration: 400,
+            duration: 500,
             type: "info"
           })
         })
